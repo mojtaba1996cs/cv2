@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my profile</title>
     <!-- ==== MAIN CSS FILE ==== -->
+    <meta name="theme-color" content="#051e34"/>
     <link rel="stylesheet" href="css/main.css" />
     <!-- ==== RENDER ALL ELEMENTS NORMALLY ==== -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -24,12 +25,12 @@
     <header>
       <div class="container">
         <div class="header-content">
-          <a href="/" class="logo">Muhammad  <span>Al-mojtaba</span></a>
+          <a href="index.html" class="logo">Muhammad  <span>Al-mojtaba</span></a>
           <div class="links">
             <div class="header__icons">
               <div class="icon">
                 <span class="icon-shape"></span>
-                <span class="icon-shape"></span>
+                <span class="icon-shape"></span
                 <span class="icon-shape"></span>
               </div>
               <i class="bx bxs-moon" id="dark-mode-toggle"></i>
@@ -38,7 +39,7 @@
               <li><a href="#home" class="active">Home</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#portfolio">Projects</a></li>
-            </ul>
+             
           </div>
         </div>
       </div>
@@ -49,7 +50,7 @@
         <div class="home-content">
           <div class="home-desc">
             <h1>Hello,<br />I am Muhammad Al-mojtaba </h1>
-            <span>back End Developer</span>
+            <span>back End Developer</spa
             <p>
               I work in back-end web development, and I have experience in
               dealing with programming and modern web technologies, and I have
@@ -80,7 +81,7 @@
             </ul>
           </div>
           <div class="home-img">
-            <img src="images/mojtaba.jpg" alt="profile" />
+            <img src="images/mojtaba.jpg" alt="profile"/>
           </div>
         </div>
       </div>
@@ -101,7 +102,58 @@
         <div class="portfolio-content"></div>
       </div>
     </section>
-
+         <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+        <div class="container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
     <!-- ==== FOOTER ==== -->
     <footer>
       <div class="container">
@@ -112,6 +164,9 @@
           ></a>
           <a href="https://www.linkedin.com/mwlite/in/muhammad-al-mojtaba-88b16912b" target="blank"
             ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/CsMojtaba" target="blank"
+            ><i class="bx bxl-twitter"></i
           ></a>
         </div>
         <span class="phone__number">
