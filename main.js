@@ -101,6 +101,11 @@ let projects = [
     img: "images/project3.jpg",
     link: "https://mojtabadev.000webhostapp.com/exol/",
   },
+  {
+  name: "chat-app",
+  img: "images/project4.jpg",
+  link: "https://mojtaba1996cs.github.io/chat-app/",
+  },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
