@@ -49,7 +49,7 @@ body {
 
 .container {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px
   margin-right: auto;
   margin-left: auto;
 }
@@ -58,7 +58,7 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 750px;
-  }
+  
   header .list-links {
     width: 50% !important;
   }
