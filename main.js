@@ -86,21 +86,20 @@ displaySkills();
 
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
-  {
+  /*{
     name: "Graduation project management",
     img: "images/project1.jpg",
     link: "http://mojtabacs.epizy.com/gp/",
   },
-  {
-    name: "Electricity reporting",
+  */{
+    name: "Programming World Blog",
     img: "images/project2.jpg",
-    link: "http://mojtabacs.epizy.com/ss/muen.php",
+    link: "https://techblog.lovestoblog.com/blog",
   },
   {
     name: "Electricity reporting site",
     img: "images/project3.jpg",
-    link: "https://mojtabadev.000webhostapp.com/exol/",
-  },
+    link: "https://exol.infinityfreeapp.com/exol/index.php", },
   {
   name: "chat-app",
   img: "images/project4.jpg",
