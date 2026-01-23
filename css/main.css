@@ -744,7 +744,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 1px; }
   .btn--theme {
-    background: var(--second-color);
+    background:#81868954;
     }
     .btn--theme:hover{
       outline: 0;
