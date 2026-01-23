@@ -555,7 +555,7 @@ ul {
   height: 3px;
 }
 .contact {
-  background:var(--second-color);
+  background:#fff;
   color: var(--light-color);
   }
   .contact__form-container {
