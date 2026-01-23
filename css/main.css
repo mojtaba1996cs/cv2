@@ -555,7 +555,7 @@ ul {
   height: 3px;
 }
 .contact {
-  background:#fff;
+  background:(--second-color);
   color: var(--light-color);
   }
   .contact__form-container {
@@ -633,7 +633,8 @@ ul {
   .contact__btn {
     width: 30%;
     height: 80px;
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
+     background:#fff; 
   	
   }
     @media only screen and (max-width: 37.5em) {
