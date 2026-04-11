@@ -105,6 +105,11 @@ let projects = [
   img: "images/project4.jpg",
   link: "https://mojtaba1996cs.github.io/chat-app/",
   },
+   {
+  name: "Holy Quran website",
+  img: "images/project5.jpg",
+  link: "https://mojtaba1996cs.github.io/quran/",
+  },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
